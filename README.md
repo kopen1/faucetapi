@@ -1,7 +1,7 @@
 Faucet Api
 ===============
 
-[![Latest Version](https://packagist.org/irkop)](https://packagist.org/irkop)
+[![Latest Version](https://packagist.org/packages/irkop/faucet)](https://packagist.org/packages/irkop/faucet)
 
 Requirements
 ------------
