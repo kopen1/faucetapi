@@ -1,0 +1,20 @@
+{
+    "name": "irkop/faucet",
+    "description": "faucet api",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/kopen1/faucetapi",
+    "keywords": ["faucet api", "api", "faucet"],
+    "autoload": {
+        "psr-4": {
+            "Irkop\\Faucet\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kopen1",
+            "email": "kopenirkop@gmail.com"
+        }
+    ],
+    "require": {}
+}
