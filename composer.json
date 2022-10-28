@@ -13,11 +13,8 @@
             "Irkop\\Faucetapi\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Irkop\\Faucetapi\\": "tests/"
-        }
-    },
+    "minimum-stability": "stable",
+
     "authors": [
         {
             "name": "kopen1",
