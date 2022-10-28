@@ -1,24 +1,25 @@
 {
-    "name": "irkop/faucetapi",
-    "description": "Faucet Api",
-   "homepage": "https://github.com/kopen1/faucetapi",
-    "keywords": ["faucet api", "api", "faucet","faucetapi"],
+    "name": "irkop/faucetpay",
+    "description": "FaucetPay Api",
     "type": "library",
-    "require": {
-           "php": ">=8.1.0"
-    },
+    "homepage" : "https://packagist.org/packages/irkop/faucetapi",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Irkop\\Faucetapi\\": "src/"
+            "irkop\\faucetpay\\": "src/"
         }
     },
-    "minimum-stability": "stable",
-
     "authors": [
         {
             "name": "kopen1",
             "email": "kopenirkop@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.5"
+    }
 }
