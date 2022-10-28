@@ -1,12 +1,11 @@
 {
     "name": "irkop/faucetapi",
-    "version": "1.0",
     "description": "Faucet Api",
    "homepage": "https://github.com/kopen1/faucetapi",
-    "keywords": ["faucet api", "api", "faucet"],
+    "keywords": ["faucet api", "api", "faucet","faucetapi"],
     "type": "library",
     "require": {
-        "php": "^7.1 || ^8.0"
+           "php": ">=8.1.0"
     },
     "license": "MIT",
     "autoload": {
@@ -14,11 +13,15 @@
             "Irkop\\Faucetapi\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Irkop\\Faucetapi\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "kopen1",
             "email": "kopenirkop@gmail.com"
         }
-    ],
-    "minimum-stability": "stable"
+    ]
 }
