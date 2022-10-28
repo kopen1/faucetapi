@@ -1,12 +1,17 @@
 Faucet Api
 ===============
+- Get Balance 
+- Get Currency List
+- Check Wallet Address 
+- Check List Payouts
+- Send payment 
 
-[![Latest Version](https://packagist.org/packages/irkop/faucet)](https://packagist.org/packages/irkop/faucet)
+
 
 Requirements
 ------------
 
- * PHP (7.1+)
+> PHP (7.1+)
 
 > For PHP (5.3+) please refer to version `1.0`.
 
