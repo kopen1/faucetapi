@@ -1,5 +1,6 @@
 {
     "name": "irkop/faucetapi",
+    "version": "1.0",
     "description": "Faucet Api",
    "homepage": "https://github.com/kopen1/faucetapi",
     "keywords": ["faucet api", "api", "faucet"],
